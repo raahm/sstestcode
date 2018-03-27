@@ -5,4 +5,6 @@
 #include <avr/io.h>
 #include <arduino.h>
 
-//adding comment to test git
+void initLED();
+void turnOnLED();
+void turnOffLED();
