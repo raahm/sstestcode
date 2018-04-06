@@ -11,8 +11,8 @@ void initLED() {
 * this allows me to test receiver and emitter
 */
 void turnOnLED() {
-  digitalWrite(13, HIGH);
-  digitalWrite(12, HIGH);
+  digitalWrite(13, HIGH); // setupt for emitter; will likely change to be using +5V output
+  digitalWrite(12, HIGH); // setup for receiver; will test for use with +5V output
   return;
 }
 
